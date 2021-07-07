@@ -102,17 +102,34 @@ body {
 	font-family: 'Lexend Deca', sans-serif;
 }*/
 
-
-
 /* Layout Mobile */
-
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 640px) {
 	.card {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
+		position: relative;
+		left: 535px;
+		top: 50px;
+		border-radius: 8px;
+		background-color: var(--bg-card-dark-blue);
+	}
+	
+	.card .left h1 {
+		position: relative;
+		top: 630px;
+		left: 90px;
+		text-align: justify;
+	}
+
+	.card .left #first {
+		font-size: 3rem;
+	}
+
+	.card .right img {
+		border-radius: 8px;
 	}
 }
 
 @media only screen and (max-width: 1440px) {
 	
-}
+} */
